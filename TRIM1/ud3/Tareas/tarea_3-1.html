@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h3>Christian Jos&eacute Moreno Exp&oacutesito</h3>
+
+    <fieldset>
+      <legend>Datos del propietario</legend>
+      Nombre <input type="text" id="Nombre" value=""><br/>
+      sexo: <input type="radio" id="Hombre" value="hombre" checked/>Hombre <input type="radio" id="mujer" value="Mujer"/> Mujer
+    </fieldset>
+
+    <fieldset>
+      <legend>Datos del vehículo</legend>
+      Marca/Modelo: <input type="text" id="marcamodel" value=""/>
+      <br/><br/>
+      Matrícula: <input type="text" name="matricula" value=""/>
+      <br/><br/>
+
+      Características: <select class="caracteristica" id="selección" multiple>
+                        <option value="utilitario" selected>Utilitario</option>
+                        <option value="todoterreno">Todo Terreno</option>
+                        <option value="altagama" selected>Alta gama</option>
+                      </select>
+      <br/><br/>
+      Otros datos:<br/>
+      <input type="checkbox" id="servo" value="servofreno" checked/>Servofrenos <input type="checkbox" id="elevaluna" value="Elevalunas" checked/>Elevalunas <input type="checkbox" name="remolque" value="Remolque"/>Remolque
+    </fieldset>
+      <br/>
+      <input type="submit" id="envio" value="enviar"/>
+
+
+  </body>
+</html>
